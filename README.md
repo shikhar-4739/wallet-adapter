@@ -1,8 +1,55 @@
-# React + Vite
+# All-in-One Solana App 🌟
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+The **All-in-One Solana App** is a web application that provides users with multiple Solana blockchain functionalities, including:
 
-Currently, two official plugins are available:
+- **Airdrop Tokens**: Request free SOL tokens to test on the Solana Devnet.
+- **Balance Check**: View the balance of your connected wallet.
+- **Transfer Tokens**: Send SOL tokens to other wallets seamlessly.
+- **Sign Messages**: Securely sign messages using your connected wallet.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Features
+- **Wallet Integration**: Easily connect your Solana wallet using `@solana/wallet-adapter`.
+- **Tabs Navigation**: Organized tabs for airdrop, balance check, transfer, and sign message features.
+- **Dynamic Effects**: Interactive light beam animation for a modern UI experience.
+- **Devnet Compatibility**: All actions are performed on Solana Devnet for testing purposes.
+
+---
+
+## Tech Stack
+- **Frontend**: React, Tailwind CSS, and Shadcn.
+- **Blockchain**: Solana Devnet, `@solana/web3.js`, and `@solana/wallet-adapter`.
+- **UI Components**: Custom tabs and wallet adapter UI components.
+
+---
+
+## Installation
+
+1. **To install the dependencies, run**:
+   ```bash
+   npm install
+   ```
+2. ** Development Server **:
+   ```bash
+   npm run dev
+   ```
+## Project Structure
+
+src/      
+├── components/     
+│   ├── Navbar.jsx        
+│   ├── Footer.jsx        
+│   ├── Airdrop.jsx       
+│   ├── Balance.jsx       
+│   ├── Transfer.jsx      
+│   ├── SignMessage.jsx   
+├── App.jsx               
+├── App.css               
+
+## License
+
+This project is licensed under the MIT License.
+
+      
