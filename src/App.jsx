@@ -91,7 +91,7 @@ function App() {
         Airdrop Tokens, Transfer, and Check Balances
       </p>
 
-      <ConnectionProvider endpoint={"https://devnet.helius-rpc.com/?api-key=a2335b29-e093-478d-bacf-dc1afa44120d"}>
+      <ConnectionProvider endpoint={import.meta.env.VITE_SOLANA_ENDPOINT}>
         <WalletProvider wallets={[]} autoConnect>
           <WalletModalProvider>
             <WalletContent />

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto text-center">
         <p>&copy; {new Date().getFullYear()} All-in-One Solana App. All rights reserved.</p>
         <p>
-          <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+          <a href="https://github.com/shikhar-4739/wallet-adapter" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
             GitHub
           </a>
           {' | '}
